@@ -1,0 +1,21 @@
+Sobre o composite:
+    -  é um padrao estrutural
+        - se preocupa com a forma como os objetos são compostos para formar estruturas maiores
+    - permite aos clientes tratarem de maneira uniforme objetos individuais
+    - compor objetos em estruturas de árvore.
+    - faz mais sentidos em objetos tratados hierarquicamente(como árvores)
+    - prioriza a composicao ao inves da herença
+
+Prós:
+    - é muito fácil criar objetos complexos por composição
+    - é fácil adicionar novos tipos de elementos
+    - é fácil usar polimorfismo e recursão
+
+Contras:
+    - dependendo da estrutura, pode quebrar o princípio da segregação de interface(ISP)
+
+Exemplo:
+    - em editores de imagens um objeto pode ser simples ou complexo. Pode existir uma linha ou um quadrado feito por
+    quatro objetos linha. E, como objetos possuem metodos e comum, como renderizar a imagem na tela, e como os objetos
+    seguem uma hierarquia o padrão composite pode ser usado para tratar todos os objetos de forma uniforme
+
